@@ -1,0 +1,30 @@
+programa
+{
+
+funcao inicio()
+{
+idade()
+}
+funcao idade()
+{
+inteiro anoatual, anonascimento, idade
+cadeia nome
+escreva("Digite seu nome \n")
+leia(nome)
+escreva("Bem-Vindo, " +nome+"\n")
+escreva("Digite ano de nascimento \n")
+leia(anonascimento)
+escreva("Digite em que ano estamos \n")
+leia(anoatual)
+idade = anoatual - anonascimento
+escreva("Esse ano você faz " +idade+"\n")
+se(idade >= 18)
+{
+escreva("Você ja é de maior \n")
+}
+senao
+{
+escreva("Você ainda não é de maior \n")
+}
+}
+}

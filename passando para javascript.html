@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Você é maior de idade? Venha ver<h1>
+    <button onclick="Ano()">Clique aqui e descubra</button>
+   
+</body>
+</html>
+
+
+<script>
+    function Ano(){
+var Nome = prompt ("Digite qual seu nome")
+var anoN = prompt ("Digite o ano em que você nasceu")
+var idade = 2023 - anoN
+if (idade < 18)
+alert("Olá, seja bem vindo "+Nome+"neste ano você completa "+idade+"anos portanto você é menor de idade ")
+if (idade >= 18)
+alert("Olá, seja bem vindo "+Nome+"neste ano você completa "+idade+"anos portanto você é maior de idade ")    
+
+
+}
+    </script>
